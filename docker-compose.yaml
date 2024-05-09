@@ -1,0 +1,11 @@
+name: debugger_test
+services:
+  db:
+    image: docker.io/postgres:alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /var/lib/postgresql/data/pgdata
+    restart: no
