@@ -14,7 +14,7 @@
             "exitAfterTaskReturns": false,
             "debugAutoInterpretAllModules": false,
             "debugInterpretModulesPatterns": [
-                "DebuggerTestWeb.*"
+                "DebuggerTest.*"
             ],
         }
     ]
